@@ -1,23 +1,20 @@
-import re
+def split_text_into_chunks(text, chunk_size=500, overlap=100):
 
-
-def split_text_into_chunks(text):
-    """
-    Divide el texto por artículos.
-    """
-
-    # Detectar artículos
-    pattern = r"(Artículo\s+\d+[\s\S]*?)(?=Artículo\s+\d+|$)"
-
-    matches = re.findall(pattern, text, re.IGNORECASE)
+    if not text:
+        return []
 
     chunks = []
 
-    for match in matches:
+    start = 0
 
-        cleaned = match.strip()
+    while start < len(text):
 
-        if len(cleaned) > 100:
-            chunks.append(cleaned)
+        end = start + chunk_size
+
+        chunk = text[start:end]
+
+        chunks.append(chunk)
+
+        start += chunk_size - overlap
 
     return chunks

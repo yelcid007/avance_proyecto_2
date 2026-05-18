@@ -21,10 +21,7 @@ def clean_text(text):
 
 
 def load_pdfs_from_folder(folder_path):
-    """
-    Lee todos los PDFs de una carpeta
-    y devuelve el texto limpio.
-    """
+   
 
     full_text = ""
 
