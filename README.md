@@ -7,6 +7,7 @@ ASISTENTE EXPERTO BASADO EN RAG
  
 
 Se creo un agente de ia, con un modelo llama3.2:1b instalado localmente. 
+
 <img width="452" height="462" alt="image" src="https://github.com/user-attachments/assets/859f3972-0a80-45a1-8c5e-46ad2cd46b32" />
 
 Aqui tenemos en cuenta la distancia semantica para condicionarla respuesta, y adicional le damos contexto con un promp establecido en el archivo prompt.py 
