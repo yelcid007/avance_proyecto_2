@@ -15,6 +15,7 @@ Aqui tenemos en cuenta la distancia semantica para condicionarla respuesta, y ad
 <img width="595" height="521" alt="image" src="https://github.com/user-attachments/assets/84b88202-e886-4cdb-89e7-7eb7b5cc754e" />
 
 Este es el prompt: 
+
  <img width="599" height="200" alt="image" src="https://github.com/user-attachments/assets/f972d948-5054-4bcb-8a9d-a2e5d041a877" />
 
 En esta parte del codigo hacemos la vectorizacion, para convertir los caracteres en vectores: 
